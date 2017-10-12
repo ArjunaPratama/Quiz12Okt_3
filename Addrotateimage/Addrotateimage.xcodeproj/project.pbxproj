@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC28A7561F8F12A0000AD505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC28A7551F8F12A0000AD505 /* AppDelegate.swift */; };
+		DC28A7581F8F12A0000AD505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC28A7571F8F12A0000AD505 /* ViewController.swift */; };
+		DC28A75B1F8F12A0000AD505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC28A7591F8F12A0000AD505 /* Main.storyboard */; };
+		DC28A75D1F8F12A0000AD505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC28A75C1F8F12A0000AD505 /* Assets.xcassets */; };
+		DC28A7601F8F12A0000AD505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC28A75E1F8F12A0000AD505 /* LaunchScreen.storyboard */; };
+		DC28A76B1F8F12A0000AD505 /* AddrotateimageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC28A76A1F8F12A0000AD505 /* AddrotateimageTests.swift */; };
+		DC28A7761F8F12A1000AD505 /* AddrotateimageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC28A7751F8F12A1000AD505 /* AddrotateimageUITests.swift */; };
+		DC28A7841F8F132A000AD505 /* tuu.png in Resources */ = {isa = PBXBuildFile; fileRef = DC28A7831F8F132A000AD505 /* tuu.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC28A7671F8F12A0000AD505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC28A74A1F8F12A0000AD505 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC28A7511F8F12A0000AD505;
+			remoteInfo = Addrotateimage;
+		};
+		DC28A7721F8F12A1000AD505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC28A74A1F8F12A0000AD505 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC28A7511F8F12A0000AD505;
+			remoteInfo = Addrotateimage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC28A7521F8F12A0000AD505 /* Addrotateimage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Addrotateimage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC28A7551F8F12A0000AD505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC28A7571F8F12A0000AD505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC28A75A1F8F12A0000AD505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC28A75C1F8F12A0000AD505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC28A75F1F8F12A0000AD505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC28A7611F8F12A0000AD505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC28A7661F8F12A0000AD505 /* AddrotateimageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddrotateimageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC28A76A1F8F12A0000AD505 /* AddrotateimageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddrotateimageTests.swift; sourceTree = "<group>"; };
+		DC28A76C1F8F12A0000AD505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC28A7711F8F12A1000AD505 /* AddrotateimageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddrotateimageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC28A7751F8F12A1000AD505 /* AddrotateimageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddrotateimageUITests.swift; sourceTree = "<group>"; };
+		DC28A7771F8F12A1000AD505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC28A7831F8F132A000AD505 /* tuu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tuu.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC28A74F1F8F12A0000AD505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC28A7631F8F12A0000AD505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC28A76E1F8F12A1000AD505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC28A7491F8F12A0000AD505 = {
+			isa = PBXGroup;
+			children = (
+				DC28A7541F8F12A0000AD505 /* Addrotateimage */,
+				DC28A7691F8F12A0000AD505 /* AddrotateimageTests */,
+				DC28A7741F8F12A1000AD505 /* AddrotateimageUITests */,
+				DC28A7531F8F12A0000AD505 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC28A7531F8F12A0000AD505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC28A7521F8F12A0000AD505 /* Addrotateimage.app */,
+				DC28A7661F8F12A0000AD505 /* AddrotateimageTests.xctest */,
+				DC28A7711F8F12A1000AD505 /* AddrotateimageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC28A7541F8F12A0000AD505 /* Addrotateimage */ = {
+			isa = PBXGroup;
+			children = (
+				DC28A7831F8F132A000AD505 /* tuu.png */,
+				DC28A7551F8F12A0000AD505 /* AppDelegate.swift */,
+				DC28A7571F8F12A0000AD505 /* ViewController.swift */,
+				DC28A7591F8F12A0000AD505 /* Main.storyboard */,
+				DC28A75C1F8F12A0000AD505 /* Assets.xcassets */,
+				DC28A75E1F8F12A0000AD505 /* LaunchScreen.storyboard */,
+				DC28A7611F8F12A0000AD505 /* Info.plist */,
+			);
+			path = Addrotateimage;
+			sourceTree = "<group>";
+		};
+		DC28A7691F8F12A0000AD505 /* AddrotateimageTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC28A76A1F8F12A0000AD505 /* AddrotateimageTests.swift */,
+				DC28A76C1F8F12A0000AD505 /* Info.plist */,
+			);
+			path = AddrotateimageTests;
+			sourceTree = "<group>";
+		};
+		DC28A7741F8F12A1000AD505 /* AddrotateimageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC28A7751F8F12A1000AD505 /* AddrotateimageUITests.swift */,
+				DC28A7771F8F12A1000AD505 /* Info.plist */,
+			);
+			path = AddrotateimageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC28A7511F8F12A0000AD505 /* Addrotateimage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC28A77A1F8F12A1000AD505 /* Build configuration list for PBXNativeTarget "Addrotateimage" */;
+			buildPhases = (
+				DC28A74E1F8F12A0000AD505 /* Sources */,
+				DC28A74F1F8F12A0000AD505 /* Frameworks */,
+				DC28A7501F8F12A0000AD505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Addrotateimage;
+			productName = Addrotateimage;
+			productReference = DC28A7521F8F12A0000AD505 /* Addrotateimage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC28A7651F8F12A0000AD505 /* AddrotateimageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC28A77D1F8F12A1000AD505 /* Build configuration list for PBXNativeTarget "AddrotateimageTests" */;
+			buildPhases = (
+				DC28A7621F8F12A0000AD505 /* Sources */,
+				DC28A7631F8F12A0000AD505 /* Frameworks */,
+				DC28A7641F8F12A0000AD505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC28A7681F8F12A0000AD505 /* PBXTargetDependency */,
+			);
+			name = AddrotateimageTests;
+			productName = AddrotateimageTests;
+			productReference = DC28A7661F8F12A0000AD505 /* AddrotateimageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC28A7701F8F12A1000AD505 /* AddrotateimageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC28A7801F8F12A1000AD505 /* Build configuration list for PBXNativeTarget "AddrotateimageUITests" */;
+			buildPhases = (
+				DC28A76D1F8F12A1000AD505 /* Sources */,
+				DC28A76E1F8F12A1000AD505 /* Frameworks */,
+				DC28A76F1F8F12A1000AD505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC28A7731F8F12A1000AD505 /* PBXTargetDependency */,
+			);
+			name = AddrotateimageUITests;
+			productName = AddrotateimageUITests;
+			productReference = DC28A7711F8F12A1000AD505 /* AddrotateimageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC28A74A1F8F12A0000AD505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Arjuna;
+				TargetAttributes = {
+					DC28A7511F8F12A0000AD505 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					DC28A7651F8F12A0000AD505 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC28A7511F8F12A0000AD505;
+					};
+					DC28A7701F8F12A1000AD505 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC28A7511F8F12A0000AD505;
+					};
+				};
+			};
+			buildConfigurationList = DC28A74D1F8F12A0000AD505 /* Build configuration list for PBXProject "Addrotateimage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC28A7491F8F12A0000AD505;
+			productRefGroup = DC28A7531F8F12A0000AD505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC28A7511F8F12A0000AD505 /* Addrotateimage */,
+				DC28A7651F8F12A0000AD505 /* AddrotateimageTests */,
+				DC28A7701F8F12A1000AD505 /* AddrotateimageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC28A7501F8F12A0000AD505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC28A7841F8F132A000AD505 /* tuu.png in Resources */,
+				DC28A7601F8F12A0000AD505 /* LaunchScreen.storyboard in Resources */,
+				DC28A75D1F8F12A0000AD505 /* Assets.xcassets in Resources */,
+				DC28A75B1F8F12A0000AD505 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC28A7641F8F12A0000AD505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC28A76F1F8F12A1000AD505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC28A74E1F8F12A0000AD505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC28A7581F8F12A0000AD505 /* ViewController.swift in Sources */,
+				DC28A7561F8F12A0000AD505 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC28A7621F8F12A0000AD505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC28A76B1F8F12A0000AD505 /* AddrotateimageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC28A76D1F8F12A1000AD505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC28A7761F8F12A1000AD505 /* AddrotateimageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC28A7681F8F12A0000AD505 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC28A7511F8F12A0000AD505 /* Addrotateimage */;
+			targetProxy = DC28A7671F8F12A0000AD505 /* PBXContainerItemProxy */;
+		};
+		DC28A7731F8F12A1000AD505 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC28A7511F8F12A0000AD505 /* Addrotateimage */;
+			targetProxy = DC28A7721F8F12A1000AD505 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC28A7591F8F12A0000AD505 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC28A75A1F8F12A0000AD505 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC28A75E1F8F12A0000AD505 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC28A75F1F8F12A0000AD505 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC28A7781F8F12A1000AD505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC28A7791F8F12A1000AD505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC28A77B1F8F12A1000AD505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Addrotateimage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.Addrotateimage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC28A77C1F8F12A1000AD505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Addrotateimage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.Addrotateimage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DC28A77E1F8F12A1000AD505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddrotateimageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.AddrotateimageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Addrotateimage.app/Addrotateimage";
+			};
+			name = Debug;
+		};
+		DC28A77F1F8F12A1000AD505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddrotateimageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.AddrotateimageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Addrotateimage.app/Addrotateimage";
+			};
+			name = Release;
+		};
+		DC28A7811F8F12A1000AD505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AddrotateimageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.AddrotateimageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Addrotateimage;
+			};
+			name = Debug;
+		};
+		DC28A7821F8F12A1000AD505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AddrotateimageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.AddrotateimageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Addrotateimage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC28A74D1F8F12A0000AD505 /* Build configuration list for PBXProject "Addrotateimage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC28A7781F8F12A1000AD505 /* Debug */,
+				DC28A7791F8F12A1000AD505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC28A77A1F8F12A1000AD505 /* Build configuration list for PBXNativeTarget "Addrotateimage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC28A77B1F8F12A1000AD505 /* Debug */,
+				DC28A77C1F8F12A1000AD505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC28A77D1F8F12A1000AD505 /* Build configuration list for PBXNativeTarget "AddrotateimageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC28A77E1F8F12A1000AD505 /* Debug */,
+				DC28A77F1F8F12A1000AD505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC28A7801F8F12A1000AD505 /* Build configuration list for PBXNativeTarget "AddrotateimageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC28A7811F8F12A1000AD505 /* Debug */,
+				DC28A7821F8F12A1000AD505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC28A74A1F8F12A0000AD505 /* Project object */;
+}
